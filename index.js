@@ -74,8 +74,8 @@ inquirer
     const readMeContent = generateMarkdown(data);
     
     // TODO: Create a function to write README file
-    fs.writeFile('README.md', readMeContent, (err) =>
-    err ? console.log(err) : console.log('Succesfully created README.md!'));
+    fs.writeFile('README2.md', readMeContent, (err) =>
+    err ? console.log(err) : console.log('Succesfully created README2.md!'));
 });
 
 // function writeToFile(fileName, data) { }

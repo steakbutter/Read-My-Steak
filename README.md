@@ -1,2 +1,21 @@
-# Read-My-Steak
-Command-line application that dynamically generates a professional README.md file from a user's input.
+# Read my Steak
+
+## Description
+node app that generates a readme file
+
+## Installation
+instal inquirer npm and run it
+
+
+## Usage
+na
+
+## Credits
+charlie
+
+## Tests
+na
+
+## License
+MIT License
+
