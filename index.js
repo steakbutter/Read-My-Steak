@@ -1,7 +1,30 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { type } = require('os');
+//const { type } = require('os');
+const generateMarkdown = ({title, description, installation, usage, contribution, tests, license}) =>
+    `# ${title}
+
+## Description
+${description}
+
+## Installation
+${installation}
+
+
+## Usage
+${usage}
+
+## Credits
+${contribution}
+
+## Tests
+${tests}
+
+## License
+${license}
+
+`
 // TODO: Create an array of questions for user input
 const questions = [
     {
