@@ -44,14 +44,21 @@ const questions = [
         choices: ["MIT License", "Apache 2.0 License", "Boost Software License 1.0", "Mozilla Public License 2.0"]
     }
 
-
 ];
+inquirer
+.prompt(questions)
+.then((data)=> {
+    const readMeContent = generateMarkdown(data);
+    
+    // TODO: Create a function to write README file
+    fs.writeFile('README.md', readMeContent, (err) =>
+    err ? console.log(err) : console.log('Succesfully created README.md!'));
+});
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+// function writeToFile(fileName, data) { }
 
-// TODO: Create a function to initialize app
-function init() { }
+// // TODO: Create a function to initialize app
+// function init() { }
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
