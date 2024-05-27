@@ -1,11 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  const licenseBadge = `[![License](https://img.shields.io/badge/License-${license}-brightgreen.svg)](https://opensource.org/licenses/${license})`;
+  const licenseMitBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
 
     // Create a notice with the selected license
     const licenseNotice = `This application is covered under the ${license} license.`;
-
+if(license === "Apache 2.0 License" || "Boost Software License 1.0" || "Mozilla Public License 2.0") {
+  return licenseMitBadge + licenseNotice 
+} else {
+  return[""]
+}
   }
   
   // TODO: Create a function that returns the license section of README
@@ -65,7 +69,8 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## License
-  ${data.license}
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
 `;
 }
 
