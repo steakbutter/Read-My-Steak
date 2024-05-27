@@ -18,22 +18,28 @@ function renderLicenseBadge(license) {
       
       ${licenseNotice}
       `;
-      
-      return licenseSection;
+      if (!licenseSection) {
+        return [""] 
+      } else {
+        return licenseSection;
+      }
     }
 }
-
-// Example usage
-const license = "MIT";
-const licenseSection = renderLicenseSection(license);
-console.log(licenseSection);
 
 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
- 
+  const licenseUrls = {
+    "MIT": "https://opensource.org/licenses/MIT",
+    "Apache-2.0": "https://www.apache.org/licenses/LICENSE-2.0",
+}; 
+  if (licenseUrls.hasOwnProperty(license)) {
+  return licenseUrls[license];
+} else {
+  return [""];
+}
 }
 
 
