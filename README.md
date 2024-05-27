@@ -19,6 +19,7 @@ Navigate to the project folder. <br>
 Install "inquirer" npm by typing "npm i inquirer 8.2.4"
 
 ## Usage
+URL to video demo generating new README file: https://drive.google.com/file/d/1hPVZQqamEJr0B2XfTvLpqcnc_p511ZPB/view?usp=sharingLinks to an external site. <br>
 Navigate to the project's folder inside the terminal. <br>
 Run node by typing "node index.js" in the terminal. <br>
 Fill out the questions being prompt in the terminal. <br>
