@@ -78,8 +78,6 @@ inquirer
     err ? console.log(err) : console.log('Succesfully created README2.md!'));
 });
 
-// function writeToFile(fileName, data) { }
-
 // // TODO: Create a function to initialize app
 // function init() { }
 
