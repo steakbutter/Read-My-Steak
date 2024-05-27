@@ -7,12 +7,12 @@ Using Node was interesting because it is the introduction to backend coding. <br
 With this project I learned how to install and use NPM's that can help a lot with coding.
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[Credits](#credits)
-[Tests](#tests)
-[Questions](#questions)
-[License](#license)
+[Installation](#installation) <br>
+[Usage](#usage) <br>
+[Credits](#credits) <br>
+[Tests](#tests) <br>
+[Questions](#questions) <br>
+[License](#license) <br>
 
 ## Installation
 Navigate to the project folder. <br>
