@@ -15,6 +15,12 @@ const questions = [
         message: "Add the description of your project",
         name: "description",
     }, {
+        type: "input",
+        message: "Add table of contents",
+        name: "tableContents"
+    },
+    
+    {
 
 
         type: "input",
