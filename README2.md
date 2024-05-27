@@ -1,26 +1,26 @@
-# cv
+# Read My Steak
 
   ## Description
-  cv
+  A README file generator using Node
 
   ## Table of Contents
-  [Installation](#installation)
+  [Installation] (#installation), [Usage](#usage), [Credits](#credits), [License](#license)
 
   ## Installation
-  sds
+  Install inquirer
   
   ## Usage
-  dsds
+  Run node on the terminal and it will prompt questions to fill out the README file.
   
   ## Credits
-  dsd
+  NA
   
   ## Tests
-  ds
+  This is the video with the test
 
   ## Questions
-  sd <br> 
-  sd
+  https://github.com/steakbutter/Read-My-Steak <br> 
+  carlosgzzperales@gmail.com
   
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)            This application is covered under the MIT License.

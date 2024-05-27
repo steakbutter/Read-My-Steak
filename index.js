@@ -73,8 +73,4 @@ inquirer
     err ? console.log(err) : console.log('Succesfully created README2.md!'));
 });
 
-// // TODO: Create a function to initialize app
-// function init() { }
 
-// // Function call to initialize app
-// init();

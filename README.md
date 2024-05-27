@@ -22,7 +22,8 @@ Install "inquirer" npm by typing "npm i inquirer 8.2.4"
 Navigate to the project's folder inside the terminal. <br>
 Run node by typing "node index.js" in the terminal. <br>
 Fill out the questions being prompt in the terminal. <br>
-Open the README file generated.
+Open the README file generated. <br><br>
+![alt text](<Node Challenge module 09.gif>)
 
 ## Credits
 Node mini project from module 09. 
@@ -54,7 +55,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ## Questions
-GitHub: https://github.com/steakbutter/Read-My-Steak
+GitHub: https://github.com/steakbutter/Read-My-Steak <br>
 Reach me at: carlosgzzperales@gmail.com
 
 ## License
