@@ -5,6 +5,15 @@ Read My Steak is a README file generator that prompts questions to fill out a pr
 With this project I solved the need to memorize what a professional README file contains by following the questions being prompt. <br>
 Using Node was interesting because it is the introduction to backend coding. <br>
 With this project I learned how to install and use NPM's that can help a lot with coding.
+
+## Table of Contents
+[Installation](#installation)
+[Usage](#usage)
+[Credits](#credits)
+[Tests](#tests)
+[Questions](#questions)
+[License](#license)
+
 ## Installation
 Navigate to the project folder. <br>
 Install "inquirer" npm by typing "npm i inquirer 8.2.4"
