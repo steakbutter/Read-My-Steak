@@ -44,6 +44,10 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
+## Questions
+GitHub: https://github.com/steakbutter/Read-My-Steak
+Reach me at: carlosgzzperales@gmail.com
+
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

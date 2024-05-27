@@ -54,6 +54,10 @@ function generateMarkdown(data) {
   
   ## Tests
   ${data.tests}
+
+  ## Questions
+  ${data.github} <br> 
+  ${data.email}
   
   ## License
   ${renderLicenseBadge(data.license)}

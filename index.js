@@ -39,7 +39,17 @@ const questions = [
         message: "List your collaborators or any third party assets",
         name: "contribution",
     }, {
+        type: "link",
+        message: "Enter your github username",
+        name:"github",
 
+    }, {
+        type: "link",
+        message: "Enter your email",
+        name: "email",
+    },
+    
+    {
 
         type: "input",
         message: "Test instructions",
